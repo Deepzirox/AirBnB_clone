@@ -2,14 +2,12 @@
     font-size: 30px;
 }
 
-
 /* Places es el padre de todos los hijos */
 
 
 .container > .places{
     width: 100%;
     height: 1000px;
-    border: 1px solid black;
 }
 
 /* pack contiene 1 flex de 2 articulos */
