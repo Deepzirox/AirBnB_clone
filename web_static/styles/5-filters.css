@@ -3,7 +3,6 @@
     margin-bottom: 30px;
     margin-top: 30px;
     margin-left: 13.5%;
-    padding: 0;
 }
 
 .container > .filters{
@@ -40,21 +39,24 @@
 .container > .filters > .locations, .amenities{
 
     height: 100%;
-    text-align: center;
     width: 30%;
     /* border: 1px solid black; */
 }
 
-.container > .filters > .locations > h3, .amenities > h3{
+.container > .filters > .locations > .info > h3, .amenities > .info > h3{
     font-weight: 600;
     padding-bottom: 0px;
     width: 100%;
 }
-.container > .filters > .locations > h4, .amenities > h4{
+.container > .filters > .locations > .info > h4, .amenities > .info > h4{
     position: relative;
     bottom: 18px;
     font-weight: 400;
     font-size: 14px;
+}
+
+.info{
+    margin-left: 30px;
 }
 
 .container > .filters > .locations > .popover, .amenities > .popover{
@@ -71,8 +73,14 @@
     border-radius: 4px;
     text-align: left;
     list-style: none;
+   
 }
 
+ul > li, .popover > h3{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
 
 
 .container > .filters > .locations:hover > .popover{
