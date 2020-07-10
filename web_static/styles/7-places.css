@@ -1,0 +1,49 @@
+
+
+.spam {
+    height: 200px;
+}
+
+
+.container > .places > h1{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.container > .places > .flexArticle{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.container > .places > .flexArticle > article{
+    width: 390px;
+    margin-right: 40px;
+    height: 100px;
+    margin-left: 5%;
+    border: #FF5A5F 1px solid;
+    border-radius: 4px;
+}
+
+.container > .places > .flexArticle > article > h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.container > .places > .lastArticle{
+    width: 100%;
+    height: auto;
+}
+.container > .places > .lastArticle > article{
+    width: 390px;
+    height: 100px;
+    margin-left: 30%;
+    margin-top: 5%;
+    border: #FF5A5F 1px solid;
+    border-radius: 4px;
+}
+.container > .places > .lastArticle > article > h2{
+    text-align: center;
+    font-size: 30px;
+}
