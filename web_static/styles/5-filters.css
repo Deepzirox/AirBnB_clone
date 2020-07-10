@@ -38,6 +38,7 @@
 }
 
 .container > .filters > .locations, .amenities{
+
     height: 100%;
     text-align: center;
     width: 30%;
@@ -58,16 +59,18 @@
 
 .container > .filters > .locations > .popover, .amenities > .popover{
     display: none;
-    height: 100%;
+    max-height: 1000%;
     width: 95%;
     padding: 0;
-    list-style: none;
-    position: relative;
     bottom: 18px;
     background: #FAFAFA;
+    position: relative;
+    bottom: 18px;
     padding: 5px;
     border: #DDDDDD 1px solid;
     border-radius: 4px;
+    text-align: left;
+    list-style: none;
 }
 
 
