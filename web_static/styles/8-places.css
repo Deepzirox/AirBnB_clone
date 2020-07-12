@@ -132,7 +132,8 @@ margin-left: 4%;
 
 .container > .places > article > .pack > .place1 > .information > .number_bathrooms{
     height: auto;
-    width: 100px;
+    width: 100%;
+    
 }
 
 .container > .places > article > .pack > .place1 > .information > .number_bathrooms > .bathrooms{
@@ -143,17 +144,35 @@ margin-left: 4%;
     margin-left: 40px;
 }
 
-.container > .places > article > .pack > .place1 > .information > .max_guest > p{
-    margin-left: 60px;
+.container > .places > article > .pack > .place1 > .information > .max_guest > span{
+    margin-left: 41px;
 }
 
-.container > .places > article > .pack > .place1 > .information > .number_rooms > p{
-    margin-left: 60px;
+.container > .places > article > .pack > .place1 > .information > .number_rooms > span{
+    margin-left: 41px;
 }
 
-.container > .places > article > .pack > .place1 > .information > .number_bathrooms > p{
-    margin-left: 60px;
+.container > .places > article > .pack > .place1 > .information > .number_bathrooms > span{
+    margin-left: 25px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*[MAIN] Informacion de pack place 2*/
@@ -204,7 +223,7 @@ margin-left: 4%;
 
 .container > .places > article > .pack > .place2 > .information > .number_bathrooms{
     height: auto;
-    width: 100px;
+    width: 100%;
 }
 
 .container > .places > article > .pack > .place2 > .information > .number_bathrooms > .bathrooms{
@@ -215,17 +234,21 @@ margin-left: 4%;
     margin-left: 40px;
 }
 
-.container > .places > article > .pack > .place2 > .information > .max_guest > p{
-    margin-left: 60px;
+.container > .places > article > .pack > .place2 > .information > .max_guest > span{
+    margin-left: 41px;
 }
 
-.container > .places > article > .pack > .place2 > .information > .number_rooms > p{
-    margin-left: 60px;
+.container > .places > article > .pack > .place2 > .information > .number_rooms > span{
+    margin-left: 41px;
 }
 
-.container > .places > article > .pack > .place2 > .information > .number_bathrooms > p{
-    margin-left: 60px;
+.container > .places > article > .pack > .place2 > .information > .number_bathrooms > span{
+    margin-left: 25px;
 }
+
+
+
+
 
 
 /* informacion del owner e informacion*/
