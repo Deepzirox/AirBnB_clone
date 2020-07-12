@@ -60,26 +60,28 @@ margin-left: 4%;
 
 .container > .places > article > .pack > .place1 > .infoflex > .price_by_night{
     min-width: 60px;
-    height: 60px;
+    height: 100%;
     font-size: 30px;
-   /*  border: #FF5A5F 4px solid;
-    border-radius: 50%; */
+   border: #FF5A5F 4px solid;
+    border-radius: 50%;
     color: #FF5A5F;
-    padding-top: 20px;
-    padding-left: 0.5px;
+    padding-top: 15px;
+    padding-left: 4px;
+    padding-bottom: 15px;
     margin-top: 2%;
     margin-left: 70px;
 }
 
 .container > .places > article > .pack > .place2 > .infoflex > .price_by_night{
     min-width: 60px;
-    height: 60px;
+    height: 100%;
     font-size: 30px;
-   /*  border: #FF5A5F 4px solid;
-    border-radius: 50%; */
+   border: #FF5A5F 4px solid;
+    border-radius: 50%;
     color: #FF5A5F;
-    padding-top: 20px;
-    padding-left: 0.5px;
+    padding-top: 15px;
+    padding-left: 4px;
+    padding-bottom: 15px;
     margin-top: 2%;
     margin-left: 70px;
 }
