@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirBnB Clone</title>
+    <link rel="stylesheet" href="styles/4-common.css">
+    <link rel="stylesheet" href="styles/3-header.css">
+    <link rel="stylesheet" href="styles/3-footer.css">
+    <link rel="stylesheet" href="styles/6-filters.css">
+    <link rel="stylesheet" href="styles/101-places.css">
+    <link rel="icon" href="images/icon.png">
+</head>
+
+<body>
+
+
+    <!--Header -->
+    <header>
+        <div class="hbnb"></div>
+    </header>
+
+    <div class="container">
+        <!-- section filters contiene La cada de States, Amenities y el boton de busqueda -->
+        <section class="filters">
+            <div class="locations">
+                <div class="info">
+                    <h3>States</h3>
+                    <h4>Medellin, California...</h4>
+                </div>
+                <!-- Aqui empieza el dropdown... -->
+                <ul class="popover">
+                    <h3>California</h3>
+                    <li>
+                        Page 1
+                    </li>
+                    <li>
+                        Page 2
+                    </li>
+                    <!-- <hr color="black"> -->
+                    <h3>Arizona</h3>
+                    <li>
+                        Page 1
+                    </li>
+                    <li>
+                        Page 2
+                    </li>
+                </ul>
+            </div>
+            <div class="amenities">
+                <div class="info">
+                    <h3>Amenities</h3>
+                    <h4>Internet, Kitchen...</h4>
+                </div>
+                <ul class="popover">
+                    <li>
+                        Internet
+                    </li>
+                    <li>
+                        TV
+                    </li>
+                    <li>
+                        Kitchen
+                    </li>
+                </ul>
+            </div>
+            <button>Search</button>
+        </section>
+        <h1>Places</h1>
+        <section class="places">
+            <article>
+                <div class="pack">
+                    <div class="place1">
+                        <div class="infoflex">
+                            <h2>House1</h2>
+                            <div class="price_by_night">
+                                $40
+                            </div>
+                        </div>
+                        <div class="information">
+                            <div class="max_guest">
+                                <div class="guest">
+                                </div>
+                                <span>2 guest</span>
+                            </div>
+                            <div class="number_rooms">
+                                <div class="room">
+                                </div>
+                                <span>2 rooms</span>
+                            </div>
+                            <div class="number_bathrooms">
+                                <div class="bathrooms"> 
+                                </div>
+                                <span>2 bathrooms</span>
+                            </div>
+                        </div>
+                        <div class="user">
+                            <p>
+                                <strong>
+                                    Owner:
+                                </strong>
+                                John Smith
+                            </p>
+                        </div>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde repellat laudantium quas beatae aliquam voluptate sit odit laborum sapiente qui quibusdam vitae perspiciatis, non cupiditate libero provident? Quas, corporis.
+                        </div>
+                        <!-- Aqui empieza lista de amenities -->
+                        <div class="amenities">
+                            <div class="title">
+                                <h2>Amenities</h2>
+                            </div>
+                            <div class="listAmenities">
+                                <ul>
+                                    <li class="pet">
+                                        <div class="petimg"></div>
+                                        <p>Pets Friendly</p>
+                                    </li>
+                                    <li class="tv">
+                                        <div class="tvimg"></div>
+                                        <p>TV</p>
+                                    </li>
+                                    <li class="wifi">
+                                        <div class="wifiimg"></div>
+                                        <p>Wifi</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Aqui empiezan lista de reviews -->
+                        <div class="reviews">
+                            <div class="title">
+                                <h2>2 Reviews</h2>
+                            </div>
+                            <div class="listReviews">
+                                <ul>
+                                    <li>
+                                        <strong>
+                                            From David Mac the 12th March 2019
+                                        </strong>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore fugiat totam, beatae ratione facere iure voluptatibus fugit placeat magni perspiciatis ipsa, cupiditate expedita architecto labore porro, est provident. Quos, in.</p>
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            From David Mac the 12th March 2019
+                                        </strong>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore fugiat totam, beatae ratione facere iure voluptatibus fugit placeat magni perspiciatis ipsa, cupiditate expedita architecto labore porro, est provident. Quos, in.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="place2">
+                        <div class="infoflex">
+                            <h2>House2</h2>
+                            <div class="price_by_night">
+                                $20
+                            </div>
+                        </div>
+                        <div class="information">
+                            <div class="max_guest">
+                                <div class="guest">
+                                </div>
+                                <span>2 guest</span>
+                            </div>
+                            <div class="number_rooms">
+                                <div class="room">
+                                </div>
+                                <span>2 rooms</span>
+                            </div>
+                            <div class="number_bathrooms">
+                                <div class="bathrooms"> 
+                                </div>
+                                <span>2 bathrooms</span>
+                            </div>
+                        </div>
+                        <div class="user">
+                            <p>
+                                <strong>
+                                    Owner:
+                                </strong>
+                                John Smith
+                            </p>
+                        </div>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde repellat laudantium quas beatae aliquam voluptate sit odit laborum sapiente qui quibusdam vitae perspiciatis, non cupiditate libero provident? Quas, corporis.
+                        </div>
+                        <!-- Aqui empieza lista de amenities -->
+                        <div class="amenities">
+                            <div class="title">
+                                <h2>Amenities</h2>
+                            </div>
+                            <div class="listAmenities">
+                                <ul>
+                                    <li class="pet">
+                                        <div class="petimg"></div>
+                                        <p>Pets Friendly</p>
+                                    </li>
+                                    <li class="tv">
+                                        <div class="tvimg"></div>
+                                        <p>TV</p>
+                                    </li>
+                                    <li class="wifi">
+                                        <div class="wifiimg"></div>
+                                        <p>Wifi</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="reviews">
+                            <div class="title">
+                                <h2>2 Reviews</h2>
+                            </div>
+                            <div class="listReviews">
+                                <ul>
+                                    <li>
+                                        <strong>
+                                            From David Mac the 12th March 2019
+                                        </strong>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore fugiat totam, beatae ratione facere iure voluptatibus fugit placeat magni perspiciatis ipsa, cupiditate expedita architecto labore porro, est provident. Quos, in.</p>
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            From David Mac the 12th March 2019
+                                        </strong>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore fugiat totam, beatae ratione facere iure voluptatibus fugit placeat magni perspiciatis ipsa, cupiditate expedita architecto labore porro, est provident. Quos, in.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="single">
+                    <div class="infoflex">
+                        <h2>House2</h2>
+                    </div>
+                </div> -->
+            </article>
+            <article>
+                <div class="pack">
+                    <div class="place1">
+                        <div class="infoflex">
+                            <h2>House1</h2>
+                            <div class="price_by_night">
+                                $40
+                            </div>
+                        </div>
+                        <div class="information">
+                            <div class="max_guest">
+                                <div class="guest">
+                                </div>
+                                <span>2 guest</span>
+                            </div>
+                            <div class="number_rooms">
+                                <div class="room">
+                                </div>
+                                <span>2 rooms</span>
+                            </div>
+                            <div class="number_bathrooms">
+                                <div class="bathrooms"> 
+                                </div>
+                                <span>2 bathrooms</span>
+                            </div>
+                        </div>
+                        <div class="user">
+                            <p>
+                                <strong>
+                                    Owner:
+                                </strong>
+                                John Smith
+                            </p>
+                        </div>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde repellat laudantium quas beatae aliquam voluptate sit odit laborum sapiente qui quibusdam vitae perspiciatis, non cupiditate libero provident? Quas, corporis.
+                        </div>
+                        <!-- Aqui empieza lista de amenities -->
+                        <div class="amenities">
+                            <div class="title">
+                                <h2>Amenities</h2>
+                            </div>
+                            <div class="listAmenities">
+                                <ul>
+                                    <li class="pet">
+                                        <div class="petimg"></div>
+                                        <p>Pets Friendly</p>
+                                    </li>
+                                    <li class="tv">
+                                        <div class="tvimg"></div>
+                                        <p>TV</p>
+                                    </li>
+                                    <li class="wifi">
+                                        <div class="wifiimg"></div>
+                                        <p>Wifi</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Aqui empiezan lista de reviews -->
+                        <div class="reviews">
+                            <div class="title">
+                                <h2>2 Reviews</h2>
+                            </div>
+                            <div class="listReviews">
+                                <ul>
+                                    <li>
+                                        <strong>
+                                            From David Mac the 12th March 2019
+                                        </strong>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore fugiat totam, beatae ratione facere iure voluptatibus fugit placeat magni perspiciatis ipsa, cupiditate expedita architecto labore porro, est provident. Quos, in.</p>
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            From David Mac the 12th March 2019
+                                        </strong>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore fugiat totam, beatae ratione facere iure voluptatibus fugit placeat magni perspiciatis ipsa, cupiditate expedita architecto labore porro, est provident. Quos, in.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="place2">
+                        <div class="infoflex">
+                            <h2>House2</h2>
+                            <div class="price_by_night">
+                                $20
+                            </div>
+                        </div>
+                        <div class="information">
+                            <div class="max_guest">
+                                <div class="guest">
+                                </div>
+                                <span>2 guest</span>
+                            </div>
+                            <div class="number_rooms">
+                                <div class="room">
+                                </div>
+                                <span>2 rooms</span>
+                            </div>
+                            <div class="number_bathrooms">
+                                <div class="bathrooms"> 
+                                </div>
+                                <span>2 bathrooms</span>
+                            </div>
+                        </div>
+                        <div class="user">
+                            <p>
+                                <strong>
+                                    Owner:
+                                </strong>
+                                John Smith
+                            </p>
+                        </div>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde repellat laudantium quas beatae aliquam voluptate sit odit laborum sapiente qui quibusdam vitae perspiciatis, non cupiditate libero provident? Quas, corporis.
+                        </div>
+                        <!-- Aqui empieza lista de amenities -->
+                        <div class="amenities">
+                            <div class="title">
+                                <h2>Amenities</h2>
+                            </div>
+                            <div class="listAmenities">
+                                <ul>
+                                    <li class="pet">
+                                        <div class="petimg"></div>
+                                        <p>Pets Friendly</p>
+                                    </li>
+                                    <li class="tv">
+                                        <div class="tvimg"></div>
+                                        <p>TV</p>
+                                    </li>
+                                    <li class="wifi">
+                                        <div class="wifiimg"></div>
+                                        <p>Wifi</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="reviews">
+                            <div class="title">
+                                <h2>2 Reviews</h2>
+                            </div>
+                            <div class="listReviews">
+                                <ul>
+                                    <li>
+                                        <strong>
+                                            From David Mac the 12th March 2019
+                                        </strong>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore fugiat totam, beatae ratione facere iure voluptatibus fugit placeat magni perspiciatis ipsa, cupiditate expedita architecto labore porro, est provident. Quos, in.</p>
+                                    </li>
+                                    <li>
+                                        <strong>
+                                            From David Mac the 12th March 2019
+                                        </strong>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore fugiat totam, beatae ratione facere iure voluptatibus fugit placeat magni perspiciatis ipsa, cupiditate expedita architecto labore porro, est provident. Quos, in.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="single">
+                    <div class="infoflex">
+                        <h2>House2</h2>
+                    </div>
+                </div> -->
+            </article>
+            
+            
+        </section>
+    </div>
+    
+    <div class="space"></div>
+
+    <footer>
+        <p>Holberton school</p>
+    </footer>
+
+</body>
+
+</html>
