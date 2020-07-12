@@ -20,7 +20,7 @@ article{
 /*  Para el layout del flex (pack) */
 .container > .places > article > .pack > .place1{
 width: 390px;
-height: 600px;
+height: auto;
 border: #FF5A5F 1px solid;
 border-radius: 4px;
 margin-left: 4%;
@@ -28,7 +28,7 @@ margin-left: 4%;
 
 .container > .places > article > .pack > .place2{
     width: 390px;
-    height: 600px;
+    height: auto;
     border: #FF5A5F 1px solid;
     border-radius: 4px;
     float: right;
@@ -381,12 +381,29 @@ margin-left: 4%;
 
 
 
+/** reviews place 1 **/
+.container > .places > article > .pack > .place1 > .reviews > .title{
+    font-size: 10px;
+    margin-left: 17px;
+    border-bottom:  #DDDDDD 1px solid;
+} 
+
+.container > .places > article > .pack > .place1 > .reviews > .listReviews > ul > li{
+    list-style: none;
+    margin-left: -17px;
+}
 
 
+.container > .places > article > .pack > .place2 > .reviews > .title{
+    font-size: 10px;
+    margin-left: 17px;
+    border-bottom:  #DDDDDD 1px solid;
+} 
 
-
-
-
+.container > .places > article > .pack > .place2 > .reviews > .listReviews > ul > li{
+    list-style: none;
+    margin-left: -17px;
+}
 
 
 
@@ -415,5 +432,5 @@ margin-left: 4%;
 
 
 .space{
-    height: 500px;
+    height: 800px;
 }
