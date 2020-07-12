@@ -1,1 +1,108 @@
-@import '6-filters.css'
+@import url('6-filters.css') screen and (min-width: 1300px);
+@media screen and (max-width: 600px) {
+    .container{
+        max-width: 1000px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        margin-left: 0px;
+        width: 100%;
+    }
+    
+    .container > .filters{
+        background: white;
+        height: 70px;
+        width: 100%;
+        border: 1px #DDDDDD solid;
+        border-radius: 4px;
+    }
+    
+    .container > .filters {
+        display: flex;
+    }
+    .container > .filters > button{
+        font-size: 18px;
+        background-color: #FF5A5F;
+        color: #FFFFFF;
+        height: 48px;
+        width: 100%;
+        border-style: none;
+        float: right;
+        margin-left: 20px;
+        margin-right: 30px;
+        margin-top: 10px;
+    }
+    .container > .filters > button:hover{
+        opacity: 90%;
+    }
+    
+    .container > .filters > .locations{
+        border-right: #DDDDDD 1px solid;
+    }
+    
+    .container > .filters > .locations, .amenities{
+    
+        height: 100%;
+        width: 30%;
+        /* border: 1px solid black; */
+    }
+    
+    .container > .filters > .locations > .info > h3, .amenities > .info > h3{
+        font-weight: 600;
+        padding-bottom: 0px;
+        width: 100%;
+    }
+    .container > .filters > .locations > .info > h4, .amenities > .info > h4{
+        position: relative;
+        bottom: 18px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    
+    .info{
+        margin-left: 30px;
+    }
+    
+    .container > .filters > .locations > .popover, .amenities > .popover{
+        display: none;
+        margin-top: -18px;
+        max-height: 1000%;
+        width: 90%;
+        padding: 0;
+        bottom: 100px;
+        background: #FAFAFA;
+        position: relative;
+        bottom: 18px;
+        padding: 5px;
+        border: #DDDDDD 1px solid;
+        border-radius: 4px;
+        text-align: left;
+        list-style: none;
+       
+    }
+    .popover > h3{
+        position: relative;
+        right: 30px;
+    }
+    
+    .container > .filters > .locations > ul > li{
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    
+    .container > .filters > .amenities > ul > li, .popover > h3{
+        margin-top: 10px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    
+    
+    .container > .filters > .locations:hover > .popover{
+        display: block;
+    }
+    
+    
+    .container > .filters > .amenities:hover > .popover{
+        display: block;
+    }
+}

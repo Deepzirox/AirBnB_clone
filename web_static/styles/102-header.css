@@ -1,1 +1,17 @@
-@import '3-header.css'
+@import url('3-header.css') screen and (min-width: 1300px);
+@media screen and (max-width: 600px) {
+    header{
+        background: #ffffff; 
+        height: 70px; 
+        width: 100%; 
+        text-align: center;
+        border-bottom: 1px solid #CCCCCC;
+    }
+    
+    header > .hbnb {
+        background-image: url(../images/logo.png);
+        background-repeat: no-repeat;
+        height: 100%;
+        margin-left: 30px;
+    }
+}
