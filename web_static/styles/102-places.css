@@ -1,5 +1,5 @@
-@import url('101-places.css') screen and (min-width: 1300px);
-@media screen and (max-width: 1200px) {
+@import url('101-places.css') screen and (min-width: 451px);
+@media screen and (max-width: 450px) {
 
     .container > h1 {
         font-size: 30px;
@@ -21,7 +21,7 @@
     }
     /*  Para el layout del flex (pack) */
     .container > .places > article > .pack > .place1{
-    width: 358px;
+    width: 100%;
     height: auto;
     border: #FF5A5F 1px solid;
     border-radius: 4px;
@@ -29,7 +29,7 @@
     }
     
     .container > .places > article > .pack > .place2{
-        width: 358px;
+        width: 100%;
         height: auto;
         border: #FF5A5F 1px solid;
         border-radius: 4px;
@@ -49,13 +49,13 @@
     .container > .places > article > .pack > .place2 > .infoflex > h2{
         font-size: 30px;
         text-align: center;
-        margin-left: 10px;
+        margin-left: 110px;
     }
     
     .container > .places > article > .pack > .place1 > .infoflex > h2{
         font-size: 30px;
         text-align: center;
-        margin-left: 130px;
+        margin-left: 110px;
     
     }
     /* precio */
@@ -71,7 +71,7 @@
         padding-left: 4px;
         padding-bottom: 15px;
         margin-top: 2%;
-        margin-left: 30px;
+        margin-left: 20px;
     }
     
     .container > .places > article > .pack > .place2 > .infoflex > .price_by_night{
@@ -85,7 +85,7 @@
         padding-left: 4px;
         padding-bottom: 15px;
         margin-top: 2%;
-        margin-left: 70px;
+        margin-left: 30px;
     }
     
     /*[MAIN] Informacion de pack place 1*/
@@ -436,5 +436,13 @@
     .space{
         height: 800px;
     }
+
+}
+
+
+
+
+
+@media screen and (max-width: 1025px) {
 
 }
