@@ -15,3 +15,15 @@ This abstraction will also allow you to change the type of storage easily withou
 The console will be a tool to validate this storage engine
 <img src="console.png">
 
+<h1> Web Static </h1>
+<ul>
+  <li>
+    HTML/CSS
+  </li>
+  <li>
+    Responsive design for mobiles screens
+  </li>
+  <li>
+    Frontend for AirBnB project
+  </li>
+</ul>
