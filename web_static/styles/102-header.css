@@ -1,5 +1,5 @@
 @import url('3-header.css') screen and (min-width: 1300px);
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1300px) {
     header{
         background: #ffffff; 
         height: 70px; 
