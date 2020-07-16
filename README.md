@@ -30,4 +30,4 @@ Type: help
     Frontend for AirBnB project
   </li>
 </ul>
-<img src="demo.png">
+<img src="dem.png">
