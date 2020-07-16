@@ -15,6 +15,9 @@ This abstraction will also allow you to change the type of storage easily withou
 The console will be a tool to validate this storage engine
 <img src="console.png">
 
+Usage: python3 console.py
+Type: help
+
 <h1> Web Static </h1>
 <ul>
   <li>
